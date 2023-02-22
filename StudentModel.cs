@@ -13,6 +13,6 @@ namespace db_exercise
         public string last_name { get; set; }
         public string email { get; set; }
         public int age { get; set; }
-        public int password { get; set; }
+        public string password { get; set; }
     }
 }
