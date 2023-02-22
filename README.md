@@ -1,5 +1,4 @@
-# db-exercise
-
+<!-- db-exercise -->
 <h1 align="center">Students and courses DB excersize</h1> 
 
 This is a console app written in C# (using Visual Studio) that resembles a student database, the methods reads from a database using a connection string, which is stored in a .config file which is ignored by GIT(see .gitignore). The methods use SQL commands to get and set data in DB and there are models with fields resembling tables and columns in DB. This project uses nuget packeges such as Npgsql, dapper and system.configuration.ConfigurationManager.
@@ -14,4 +13,4 @@ This is a console app written in C# (using Visual Studio) that resembles a stude
 <li>edit course info
 <li>remove course
 </ul>
-NOTE: The output is written in swedish but the code is in english :satisfied:
+NOTE: The output is in swedish but the code is in english :satisfied:
