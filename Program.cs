@@ -144,7 +144,7 @@ namespace db_exercise
                 try
                 {
                     Console.WriteLine("\nLägg till ny student\n");
-                    Console.WriteLine("1. Lägg skapa nytt studentkonto\n2. Avbryt");
+                    Console.WriteLine("1. Skapa nytt studentkonto\n2. Avbryt");
                     Console.Write("--> ");
                     string input = Console.ReadLine();
                     switch (input)
@@ -521,6 +521,7 @@ namespace db_exercise
                             break;
                         case "2":
                             Console.WriteLine("\nVar god ange rätt kurs ID för att radera\n");
+                            Console.Write("--> ");
                             int id = int.Parse( Console.ReadLine() );
                             Console.Write("Är du säker? J/N: ");
                             string yesNo = Console.ReadLine();
